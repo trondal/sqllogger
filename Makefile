@@ -4,7 +4,7 @@ INSTALL_BIN?=${PREFIX}/bin
 INSTALL=/usr/bin/install
 
 CFLAGS+=-pedantic -Wall -Wstrict-prototypes -Wmissing-prototypes -ansi
-LDFLAGS+=-pedantic -Wall -ansi -lz
+LDFLAGS+=-pedantic -Wall -lz
 
 TARGET=sqllogger
 OBJECTS=sqllogger.o

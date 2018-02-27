@@ -1,3 +1,5 @@
+# In development now as 31 jan 2018.
+
 # SQL CUD Log
 
 Tail the mysql log into this program and view all CUD (Create, update, delete) queries in different colours. The program ignores SELECT statements.
